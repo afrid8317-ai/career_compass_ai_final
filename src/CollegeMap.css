@@ -1,0 +1,95 @@
+.college-result-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+
+.college-result-actions button {
+  border: 0;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+  font: inherit;
+}
+
+.college-result-actions button:disabled {
+  cursor: wait;
+  opacity: 0.6;
+}
+
+.college-map-panel {
+  display: grid;
+  gap: 12px;
+  margin-top: 20px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--paper);
+}
+
+.college-map-heading {
+  display: grid;
+  gap: 4px;
+}
+
+.college-map-heading h3,
+.college-map-heading strong,
+.college-map-panel p {
+  margin: 0;
+}
+
+.college-map-note,
+.college-map-panel > small {
+  color: var(--muted);
+  font-size: 0.82rem;
+  line-height: 1.5;
+}
+
+.college-map-error {
+  color: #9c2f20;
+}
+
+.college-map-choice {
+  display: grid;
+  gap: 8px;
+  font-weight: 600;
+}
+
+.college-map-choice select {
+  width: 100%;
+  min-width: 0;
+}
+
+.college-map-frame {
+  width: 100%;
+  height: 320px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: #e8eee6;
+}
+
+.college-leaflet-map {
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.college-map-pin,
+.college-map-pin.leaflet-div-icon {
+  border: 0;
+  border-radius: 50%;
+  background: #b44533;
+  box-shadow: 0 0 0 5px rgb(180 69 51 / 22%), 0 1px 5px rgb(0 0 0 / 35%);
+}
+
+@media (max-width: 640px) {
+  .college-map-panel {
+    padding: 14px;
+  }
+
+  .college-map-frame {
+    height: 260px;
+  }
+}

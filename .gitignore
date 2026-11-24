@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.env
+.venv/
+__pycache__/
+*.py[cod]
+backend/careercompass.db
+backend/data/college_cutoffs.csv
+backend/data/college_cutoffs.csv.tmp
+backend/backups/
+backups/
+.pytest_cache/
+.mypy_cache/
+.vercel/
+playwright-report/
+test-results/

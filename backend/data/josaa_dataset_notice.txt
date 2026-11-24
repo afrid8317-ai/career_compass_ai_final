@@ -1,0 +1,20 @@
+JoSAA opening and closing rank data
+
+The bundled source archive is the Kaggle dataset "JoSAA Opening & Closing Ranks
+Dataset (2016-2026)" by Gopi Krishnan R:
+https://www.kaggle.com/datasets/gopikrishnan2005/josaa-opening-and-closing-ranks-dataset-20162026
+
+The dataset is licensed under Creative Commons Attribution-ShareAlike 4.0
+International (CC BY-SA 4.0):
+https://creativecommons.org/licenses/by-sa/4.0/
+
+The dataset author says the records were compiled from the official JoSAA
+opening/closing rank archive:
+https://josaa.admissions.nic.in/applicant/seatmatrix/openingclosingrankarchieve.aspx
+CareerCompass has not independently reconciled the compilation against JoSAA.
+The importer classifies IIT and IISc records as JEE Advanced and other JoSAA
+institutions as JEE Main; this is a source-based mapping, not official advice.
+
+The importer retains ordinary integer ranks only. Preparatory ranks marked
+"P" and rows with missing or non-integer ranks are excluded because this app's
+rank comparison does not model those rank types.
